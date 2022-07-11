@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C81B328C2877FC8B0047BBEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B328B2877FC8B0047BBEC /* AppDelegate.swift */; };
+		C81B328E2877FC8B0047BBEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B328D2877FC8B0047BBEC /* SceneDelegate.swift */; };
+		C81B32902877FC8B0047BBEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B328F2877FC8B0047BBEC /* ViewController.swift */; };
+		C81B32932877FC8B0047BBEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81B32912877FC8B0047BBEC /* Main.storyboard */; };
+		C81B32952877FC8E0047BBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81B32942877FC8E0047BBEC /* Assets.xcassets */; };
+		C81B32982877FC8E0047BBEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81B32962877FC8E0047BBEC /* LaunchScreen.storyboard */; };
+		C81B32A72877FF1D0047BBEC /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B32A62877FF1D0047BBEC /* OnboardingVC.swift */; };
+		C81B32A92877FF570047BBEC /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B32A82877FF570047BBEC /* OnboardingSlide.swift */; };
+		C81B32AB2877FF9A0047BBEC /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B32AA2877FF9A0047BBEC /* UserDefault+Extension.swift */; };
+		C81B32AE2877FFEB0047BBEC /* OnboardingCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B32AD2877FFEB0047BBEC /* OnboardingCVCell.swift */; };
+		C81B32B02878003C0047BBEC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B32AF2878003C0047BBEC /* UIView+Extension.swift */; };
+		C81B32C02878021E0047BBEC /* BeVietnam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B22878021C0047BBEC /* BeVietnam-Bold.ttf */; };
+		C81B32C12878021E0047BBEC /* BeVietnam-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B32878021D0047BBEC /* BeVietnam-BoldItalic.ttf */; };
+		C81B32C22878021E0047BBEC /* BeVietnam-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B42878021D0047BBEC /* BeVietnam-LightItalic.ttf */; };
+		C81B32C32878021E0047BBEC /* BeVietnam-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B52878021D0047BBEC /* BeVietnam-SemiBoldItalic.ttf */; };
+		C81B32C42878021E0047BBEC /* BeVietnam-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B62878021D0047BBEC /* BeVietnam-Thin.ttf */; };
+		C81B32C52878021E0047BBEC /* BeVietnam-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B72878021D0047BBEC /* BeVietnam-SemiBold.ttf */; };
+		C81B32C62878021E0047BBEC /* BeVietnam-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B82878021D0047BBEC /* BeVietnam-MediumItalic.ttf */; };
+		C81B32C72878021E0047BBEC /* BeVietnam-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32B92878021D0047BBEC /* BeVietnam-Medium.ttf */; };
+		C81B32C82878021E0047BBEC /* BeVietnam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32BA2878021D0047BBEC /* BeVietnam-Regular.ttf */; };
+		C81B32C92878021E0047BBEC /* BeVietnam-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32BB2878021D0047BBEC /* BeVietnam-ThinItalic.ttf */; };
+		C81B32CA2878021E0047BBEC /* BeVietnam-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32BC2878021D0047BBEC /* BeVietnam-ExtraBoldItalic.ttf */; };
+		C81B32CB2878021E0047BBEC /* BeVietnam-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32BD2878021D0047BBEC /* BeVietnam-Italic.ttf */; };
+		C81B32CC2878021E0047BBEC /* BeVietnam-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32BE2878021D0047BBEC /* BeVietnam-ExtraBold.ttf */; };
+		C81B32CD2878021E0047BBEC /* BeVietnam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81B32BF2878021E0047BBEC /* BeVietnam-Light.ttf */; };
+		C81B32CF287806740047BBEC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B32CE287806740047BBEC /* UIViewController+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C81B32882877FC8B0047BBEC /* FarmEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81B328B2877FC8B0047BBEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C81B328D2877FC8B0047BBEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C81B328F2877FC8B0047BBEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C81B32922877FC8B0047BBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C81B32942877FC8E0047BBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C81B32972877FC8E0047BBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C81B32992877FC8E0047BBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81B32A62877FF1D0047BBEC /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		C81B32A82877FF570047BBEC /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		C81B32AA2877FF9A0047BBEC /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		C81B32AD2877FFEB0047BBEC /* OnboardingCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCVCell.swift; sourceTree = "<group>"; };
+		C81B32AF2878003C0047BBEC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C81B32B22878021C0047BBEC /* BeVietnam-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-Bold.ttf"; sourceTree = "<group>"; };
+		C81B32B32878021D0047BBEC /* BeVietnam-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C81B32B42878021D0047BBEC /* BeVietnam-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-LightItalic.ttf"; sourceTree = "<group>"; };
+		C81B32B52878021D0047BBEC /* BeVietnam-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C81B32B62878021D0047BBEC /* BeVietnam-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-Thin.ttf"; sourceTree = "<group>"; };
+		C81B32B72878021D0047BBEC /* BeVietnam-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-SemiBold.ttf"; sourceTree = "<group>"; };
+		C81B32B82878021D0047BBEC /* BeVietnam-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C81B32B92878021D0047BBEC /* BeVietnam-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-Medium.ttf"; sourceTree = "<group>"; };
+		C81B32BA2878021D0047BBEC /* BeVietnam-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-Regular.ttf"; sourceTree = "<group>"; };
+		C81B32BB2878021D0047BBEC /* BeVietnam-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C81B32BC2878021D0047BBEC /* BeVietnam-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C81B32BD2878021D0047BBEC /* BeVietnam-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-Italic.ttf"; sourceTree = "<group>"; };
+		C81B32BE2878021D0047BBEC /* BeVietnam-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C81B32BF2878021E0047BBEC /* BeVietnam-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnam-Light.ttf"; sourceTree = "<group>"; };
+		C81B32CE287806740047BBEC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C81B32852877FC8B0047BBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C81B327F2877FC8B0047BBEC = {
+			isa = PBXGroup;
+			children = (
+				C81B328A2877FC8B0047BBEC /* FarmEats */,
+				C81B32892877FC8B0047BBEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C81B32892877FC8B0047BBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32882877FC8B0047BBEC /* FarmEats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C81B328A2877FC8B0047BBEC /* FarmEats */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32A32877FD140047BBEC /* Extensions */,
+				C81B329F2877FCCD0047BBEC /* Networking */,
+				C81B32A02877FCE10047BBEC /* Models */,
+				C81B32A12877FCEA0047BBEC /* Views */,
+				C81B32A22877FCF60047BBEC /* ViewModels */,
+				C81B32B1287801FB0047BBEC /* Fonts */,
+				C81B328B2877FC8B0047BBEC /* AppDelegate.swift */,
+				C81B328D2877FC8B0047BBEC /* SceneDelegate.swift */,
+				C81B328F2877FC8B0047BBEC /* ViewController.swift */,
+				C81B32912877FC8B0047BBEC /* Main.storyboard */,
+				C81B32942877FC8E0047BBEC /* Assets.xcassets */,
+				C81B32962877FC8E0047BBEC /* LaunchScreen.storyboard */,
+				C81B32992877FC8E0047BBEC /* Info.plist */,
+			);
+			path = FarmEats;
+			sourceTree = "<group>";
+		};
+		C81B329F2877FCCD0047BBEC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C81B32A02877FCE10047BBEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32A82877FF570047BBEC /* OnboardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C81B32A12877FCEA0047BBEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32AC2877FFD50047BBEC /* Cells */,
+				C81B32A52877FEE20047BBEC /* Onboarding */,
+				C81B32A42877FED50047BBEC /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C81B32A22877FCF60047BBEC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C81B32A32877FD140047BBEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32AA2877FF9A0047BBEC /* UserDefault+Extension.swift */,
+				C81B32AF2878003C0047BBEC /* UIView+Extension.swift */,
+				C81B32CE287806740047BBEC /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C81B32A42877FED50047BBEC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C81B32A52877FEE20047BBEC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32A62877FF1D0047BBEC /* OnboardingVC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C81B32AC2877FFD50047BBEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32AD2877FFEB0047BBEC /* OnboardingCVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C81B32B1287801FB0047BBEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C81B32B22878021C0047BBEC /* BeVietnam-Bold.ttf */,
+				C81B32B32878021D0047BBEC /* BeVietnam-BoldItalic.ttf */,
+				C81B32BE2878021D0047BBEC /* BeVietnam-ExtraBold.ttf */,
+				C81B32BC2878021D0047BBEC /* BeVietnam-ExtraBoldItalic.ttf */,
+				C81B32BD2878021D0047BBEC /* BeVietnam-Italic.ttf */,
+				C81B32BF2878021E0047BBEC /* BeVietnam-Light.ttf */,
+				C81B32B42878021D0047BBEC /* BeVietnam-LightItalic.ttf */,
+				C81B32B92878021D0047BBEC /* BeVietnam-Medium.ttf */,
+				C81B32B82878021D0047BBEC /* BeVietnam-MediumItalic.ttf */,
+				C81B32BA2878021D0047BBEC /* BeVietnam-Regular.ttf */,
+				C81B32B72878021D0047BBEC /* BeVietnam-SemiBold.ttf */,
+				C81B32B52878021D0047BBEC /* BeVietnam-SemiBoldItalic.ttf */,
+				C81B32B62878021D0047BBEC /* BeVietnam-Thin.ttf */,
+				C81B32BB2878021D0047BBEC /* BeVietnam-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C81B32872877FC8B0047BBEC /* FarmEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81B329C2877FC8E0047BBEC /* Build configuration list for PBXNativeTarget "FarmEats" */;
+			buildPhases = (
+				C81B32842877FC8B0047BBEC /* Sources */,
+				C81B32852877FC8B0047BBEC /* Frameworks */,
+				C81B32862877FC8B0047BBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmEats;
+			productName = FarmEats;
+			productReference = C81B32882877FC8B0047BBEC /* FarmEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C81B32802877FC8B0047BBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C81B32872877FC8B0047BBEC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C81B32832877FC8B0047BBEC /* Build configuration list for PBXProject "FarmEats" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C81B327F2877FC8B0047BBEC;
+			productRefGroup = C81B32892877FC8B0047BBEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C81B32872877FC8B0047BBEC /* FarmEats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C81B32862877FC8B0047BBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81B32CC2878021E0047BBEC /* BeVietnam-ExtraBold.ttf in Resources */,
+				C81B32982877FC8E0047BBEC /* LaunchScreen.storyboard in Resources */,
+				C81B32C42878021E0047BBEC /* BeVietnam-Thin.ttf in Resources */,
+				C81B32952877FC8E0047BBEC /* Assets.xcassets in Resources */,
+				C81B32932877FC8B0047BBEC /* Main.storyboard in Resources */,
+				C81B32CA2878021E0047BBEC /* BeVietnam-ExtraBoldItalic.ttf in Resources */,
+				C81B32C22878021E0047BBEC /* BeVietnam-LightItalic.ttf in Resources */,
+				C81B32C62878021E0047BBEC /* BeVietnam-MediumItalic.ttf in Resources */,
+				C81B32CD2878021E0047BBEC /* BeVietnam-Light.ttf in Resources */,
+				C81B32CB2878021E0047BBEC /* BeVietnam-Italic.ttf in Resources */,
+				C81B32C12878021E0047BBEC /* BeVietnam-BoldItalic.ttf in Resources */,
+				C81B32C52878021E0047BBEC /* BeVietnam-SemiBold.ttf in Resources */,
+				C81B32C32878021E0047BBEC /* BeVietnam-SemiBoldItalic.ttf in Resources */,
+				C81B32C72878021E0047BBEC /* BeVietnam-Medium.ttf in Resources */,
+				C81B32C92878021E0047BBEC /* BeVietnam-ThinItalic.ttf in Resources */,
+				C81B32C02878021E0047BBEC /* BeVietnam-Bold.ttf in Resources */,
+				C81B32C82878021E0047BBEC /* BeVietnam-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C81B32842877FC8B0047BBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81B32CF287806740047BBEC /* UIViewController+Extension.swift in Sources */,
+				C81B32A92877FF570047BBEC /* OnboardingSlide.swift in Sources */,
+				C81B32902877FC8B0047BBEC /* ViewController.swift in Sources */,
+				C81B32B02878003C0047BBEC /* UIView+Extension.swift in Sources */,
+				C81B32AB2877FF9A0047BBEC /* UserDefault+Extension.swift in Sources */,
+				C81B32A72877FF1D0047BBEC /* OnboardingVC.swift in Sources */,
+				C81B32AE2877FFEB0047BBEC /* OnboardingCVCell.swift in Sources */,
+				C81B328C2877FC8B0047BBEC /* AppDelegate.swift in Sources */,
+				C81B328E2877FC8B0047BBEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C81B32912877FC8B0047BBEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C81B32922877FC8B0047BBEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C81B32962877FC8E0047BBEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C81B32972877FC8E0047BBEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C81B329A2877FC8E0047BBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C81B329B2877FC8E0047BBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C81B329D2877FC8E0047BBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FarmEats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learning.App.FarmEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C81B329E2877FC8E0047BBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FarmEats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learning.App.FarmEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C81B32832877FC8B0047BBEC /* Build configuration list for PBXProject "FarmEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81B329A2877FC8E0047BBEC /* Debug */,
+				C81B329B2877FC8E0047BBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81B329C2877FC8E0047BBEC /* Build configuration list for PBXNativeTarget "FarmEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81B329D2877FC8E0047BBEC /* Debug */,
+				C81B329E2877FC8E0047BBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C81B32802877FC8B0047BBEC /* Project object */;
+}
