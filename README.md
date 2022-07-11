@@ -1,5 +1,5 @@
 # FarmEats - Simple app for Login and Signup.
-FarmEats is a demo application for getBasis interview.
+FarmEats is a demo application for techwink interview.
 
 ##Requirements
 - macOS
