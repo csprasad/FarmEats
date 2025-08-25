@@ -1,6 +1,9 @@
 # FarmEats - Simple iOS app for Login and Signup using Swift.
 FarmEats is a demo application for techwink interview.
 
+## Preview
+![FarmEats](FarmEats/screenshots/FarmEats.png)
+
 ##Requirements
 - macOS
 - Xcode
